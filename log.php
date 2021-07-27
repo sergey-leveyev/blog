@@ -27,9 +27,9 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
 
-    <title>my blog</title>
+    <title>login</title>
   </head>
   <body>
     <header class="container-fluid">
@@ -67,9 +67,9 @@
       <form
         class="row justify-content-md-center"
         method="post"
-        action="reg.html"
+        action="log.php"
       >
-        <h2>registration</h2>
+        <h2>LOGIN</h2>
         <div class="mb-3 col-12 col-md-4">
           <label for="formGroupExampleInput" class="form-label"
             >Example label</label
@@ -82,21 +82,7 @@
           />
         </div>
         <div class="w-100"></div>
-        <div class="mb-3 col-12 col-md-4">
-          <label for="exampleInputEmail1" class="form-label"
-            >Email address</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-          <div id="emailHelp" class="form-text">
-            We'll never share your email with anyone else.
-          </div>
-          <div class="w-100"></div>
-        </div>
+
         <div class="w-100"></div>
         <div class="mb-3 col-12 col-md-4">
           <label for="exampleInputPassword1" class="form-label">Password</label>
@@ -107,18 +93,10 @@
           />
         </div>
         <div class="w-100"></div>
+
         <div class="mb-3 col-12 col-md-4">
-          <label for="exampleInputPassword2" class="form-label">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleInputPassword2"
-          />
-        </div>
-        <div class="w-100"></div>
-        <div class="mb-3 col-12 col-md-4">
-          <button type="button" class="btn btn-secondary">Submit</button>
-          <a href="aut.html">registered user</a>
+          <button type="button" class="btn btn-secondary">LOGIN</button>
+          <a href="aut.html">registration</a>
         </div>
       </form>
     </div>

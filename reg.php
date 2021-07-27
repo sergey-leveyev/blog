@@ -27,7 +27,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>my blog</title>
   </head>
@@ -61,79 +61,68 @@
         </div>
       </div>
     </header>
-
-    <!-- block main -->
-    <div class="container">
-      <div class="content row">
-        <div class="main-content col-md-9 col-12">
-          <h2>Titel</h2>
-          <div class="single_post row">
-            <div class="img col-12">
-              <img
-                src="./img/email-3249062_1280.png"
-                alt=""
-                class="img-thumbnail"
-              />
-            </div>
-            <div class="single_post_text col-12">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              vero, et, a, libero eaque accusamus id assumenda officiis eveniet
-              modi dignissimos. Ad nisi corporis magni fuga, minima laborum ex.
-              Similique vel nostrum, deleniti ad itaque alias sunt doloribus
-              dolore autem, nam incidunt qui doloremque, commodi quaerat maxime
-              sint. Deserunt nihil error facilis perspiciatis illo, itaque
-              voluptatem aliquam rem sapiente. Suscipit itaque facilis
-              voluptatem corporis soluta iste minus, dolores nemo ducimus vel
-              voluptas hic nostrum iusto atque fuga, ipsum doloremque sint nisi
-              fugiat ab. Ullam accusantium quaerat, eum voluptatem odit
-              praesentium provident beatae modi. Veniam modi itaque molestiae
-              fugit aspernatur voluptatem non asperiores rem esse perspiciatis
-              facilis nemo voluptatibus rerum, doloremque magni perferendis,
-              voluptas sapiente cum iste nihil saepe suscipit ea distinctio? At
-              obcaecati eum iste adipisci sapiente nesciunt commodi natus,
-              impedit quod ullam sequi unde culpa tenetur deserunt debitis
-              expedita molestiae nobis accusantium distinctio et consectetur
-              architecto esse! Pariatur vitae perspiciatis velit suscipit alias,
-              neque voluptates ab reiciendis aliquam recusandae, soluta ipsam id
-              accusamus necessitatibus, sed sunt magni sit nostrum asperiores
-              provident! Rerum, minima aperiam eius at consequuntur quibusdam,
-              tenetur dolorem, suscipit nulla ipsa exercitationem voluptatem.
-              Dolore atque maxime maiores, aspernatur libero dolor est odio
-              repudiandae porro veniam nisi blanditiis.
-            </div>
-          </div>
+    <!-- END HEADER -->
+    <!-- FORM -->
+    <div class="container reg_form">
+      <form
+        class="row justify-content-md-center"
+        method="post"
+        action="reg.php"
+      >
+        <h2>registration</h2>
+        <div class="mb-3 col-12 col-md-4">
+          <label for="formGroupExampleInput" class="form-label"
+            >Example label</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput"
+            placeholder="Example input placeholder"
+          />
         </div>
-
-        <div class="sidebar col-md-3 col-12">
-          <div class="section search">
-            <h3>Search</h3>
-            <form action="/" method="POST">
-              <input
-                type="text"
-                name="search-term"
-                class="text-input"
-                placeholder="Search..."
-              />
-            </form>
+        <div class="w-100"></div>
+        <div class="mb-3 col-12 col-md-4">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
           </div>
-          <div class="section topics">
-            <h3>Topics</h3>
-            <ul>
-              <li><a href="#">Poems</a></li>
-              <li><a href="#">Quotes</a></li>
-              <li><a href="#">Fiction</a></li>
-              <li><a href="#">Biography</a></li>
-              <li><a href="#">Motivation</a></li>
-              <li><a href="#">Inspiration</a></li>
-              <li><a href="#">Life Lessons</a></li>
-            </ul>
-          </div>
+          <div class="w-100"></div>
         </div>
-      </div>
+        <div class="w-100"></div>
+        <div class="mb-3 col-12 col-md-4">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="w-100"></div>
+        <div class="mb-3 col-12 col-md-4">
+          <label for="exampleInputPassword2" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword2"
+          />
+        </div>
+        <div class="w-100"></div>
+        <div class="mb-3 col-12 col-md-4">
+          <button type="button" class="btn btn-secondary">Submit</button>
+          <a href="aut.html">registered user</a>
+        </div>
+      </form>
     </div>
-
-    <!-- block main END-->
-
+    <!-- END FORM -->
     <!-- FOOTER -->
     <div class="footer container-fluid">
       <div class="footer-content container">
@@ -195,20 +184,5 @@
       </div>
     </div>
     <!-- FOOTER END -->
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>

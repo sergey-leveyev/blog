@@ -26,8 +26,8 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="assets/css/style.css">
+<!--    <link rel="stylesheet" href="/css/style.css" />-->
 
     <title>my blog</title>
   </head>
@@ -74,7 +74,7 @@
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/city-6238228_1280.jpg" class="d-block w-100" />
+            <img src="assets/img/city-6238228_1280.jpg" class="d-block w-100" />
             <div
               class="carousel-caption-hack carousel-caption d-none d-md-block"
             >
@@ -82,7 +82,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./img/flower-4774929_1280.jpg" class="d-block w-100" />
+            <img src="assets/img/flower-4774929_1280.jpg" class="d-block w-100" />
             <div
               class="carousel-caption-hack carousel-caption d-none d-md-block"
             >
@@ -90,7 +90,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./img/seagulls-6309501_1280.jpg" class="d-block w-100" />
+            <img src="assets/img/seagulls-6309501_1280.jpg" class="d-block w-100" />
             <div
               class="carousel-caption-hack carousel-caption d-none d-md-block"
             >
@@ -128,7 +128,7 @@
           <div class="post row">
             <div class="img col-12 col-md-4">
               <img
-                src="./img/email-3249062_1280.png"
+                src="assets/img/email-3249062_1280.png"
                 alt=""
                 class="img-thumbnail"
               />
@@ -148,7 +148,7 @@
           <div class="post row">
             <div class="img col-12 col-md-4">
               <img
-                src="./img/email-3249062_1280.png"
+                src="assets/img/email-3249062_1280.png"
                 alt=""
                 class="img-thumbnail"
               />
@@ -168,7 +168,7 @@
           <div class="post row">
             <div class="img col-12 col-md-4">
               <img
-                src="./img/email-3249062_1280.png"
+                src="assets/img/email-3249062_1280.png"
                 alt=""
                 class="img-thumbnail"
               />
@@ -188,7 +188,7 @@
           <div class="post row">
             <div class="img col-12 col-md-4">
               <img
-                src="./img/email-3249062_1280.png"
+                src="assets/img/email-3249062_1280.png"
                 alt=""
                 class="img-thumbnail"
               />
@@ -208,7 +208,7 @@
           <div class="post row">
             <div class="img col-12 col-md-4">
               <img
-                src="./img/email-3249062_1280.png"
+                src="assets/img/email-3249062_1280.png"
                 alt=""
                 class="img-thumbnail"
               />
@@ -228,7 +228,7 @@
           <div class="post row">
             <div class="img col-12 col-md-4">
               <img
-                src="./img/email-3249062_1280.png"
+                src="assets/img/email-3249062_1280.png"
                 alt=""
                 class="img-thumbnail"
               />
