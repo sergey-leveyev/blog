@@ -15,8 +15,8 @@
               <li>
                 <a href="#">
                   <i class="fas fa-user-alt"></i>
-office</a
->
+                   office
+                </a>
                 <ul>
                   <li><a href="#">admin</a></li>
                   <li><a href="#"> logout</a></li>
